@@ -4,7 +4,7 @@ Extensión tipo **Command Palette / Spotlight** para buscar y abrir bookmarks co
 
 ## Features del MVP
 
-- Atajo global configurable (por defecto `Ctrl+K` (en macOS equivale a `⌘K`)).
+- Atajo global configurable (por defecto `Command+K`).
 - Overlay in-page con búsqueda en tiempo real.
 - Navegación por teclado:
   - `↑/↓`: mover selección.
