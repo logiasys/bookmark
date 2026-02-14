@@ -1,0 +1,25 @@
+{
+  "name": "Bookmark Palette for Brave",
+  "description": "Spotlight-style command palette to search and open bookmarks in Brave.",
+  "version": "0.2.0",
+  "manifest_version": 3,
+  "permissions": [
+    "bookmarks",
+    "storage",
+    "activeTab",
+    "scripting",
+    "tabs"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "commands": {
+    "toggle-palette": {
+      "suggested_key": {
+        "default": "Ctrl+K"
+      },
+      "description": "Open Bookmark Palette"
+    }
+  }
+}
